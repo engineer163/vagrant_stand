@@ -1,0 +1,9 @@
+datacenter = "stand"
+data_dir = "/opt/consul"
+rejoin_after_leave = true
+bind_addr = "ipaddr"
+advertise_addr = "ipaddr"
+server = true
+bootstrap_expect = 3
+client_addr = "0.0.0.0"
+ui = true
